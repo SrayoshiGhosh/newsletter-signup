@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
 html,
 body {
   height: 100%;
@@ -15,7 +16,7 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #e5f3f9;
+  background-color: #f4f4f4;
 }
 
 .form-signin {
@@ -58,6 +59,16 @@ img {
   margin-bottom: -20px;
 }
 
-.h3 {
-  color: #024277;
+.h3,
+.btn {
+  font-family: "Roboto Serif", sans-serif;
+}
+
+form {
+  background-color: #eee;
+}
+
+form.form-signin {
+  padding-left: 30px;
+  padding-right: 30px;
 }
